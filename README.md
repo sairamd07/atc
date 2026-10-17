@@ -8,11 +8,8 @@ The application delivers real-time situational awareness across regional airspac
 
 ## 📸 Screenshots
 
-> **Instructions for Adding Screenshots:**
-> Capture screenshots of the running dashboard and place them in the `/docs/screenshots/` directory.
-> 1. `tactical-radar.png`: The tactical radar display with rotated aircraft headings and selected flight track.
-> 2. `telemetry-panel.png`: The avionics telemetry card displaying barometric altitude, vertical rate, and squawk.
-> 3. `airspace-analytics.png`: Sector altitude stratification and flight phase breakdown charts.
+<img width="1916" height="705" alt="image" src="https://github.com/user-attachments/assets/21a52fc5-6f4c-4563-bd6b-2635550c7356" />
+
 
 ```
 +-----------------------------------------------------------------------------------------+
