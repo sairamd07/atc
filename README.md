@@ -11,26 +11,6 @@ The application delivers real-time situational awareness across regional airspac
 <img width="1916" height="705" alt="image" src="https://github.com/user-attachments/assets/21a52fc5-6f4c-4563-bd6b-2635550c7356" />
 
 
-```
-+-----------------------------------------------------------------------------------------+
-| [RADIO] AIRSPACE CONTROL  ATC-RADAR   [OPENSKY LIVE]  [Southern India]   [AUTO: 12s]    |
-+-----------------------------------------------------------------------------------------+
-| [Total Tracked: 24]  [Airborne: 21 (↑6 -12 ↓3)]  [On Ground: 3]  [Stale Telemetry: 1]   |
-+-----------------------------------------------------------------------------------------+
-|                                                                                         |
-|       TACTICAL RADAR DISPLAY (Leaflet Dark Matter / OpenStreetMap)                      |
-|       ▲ IGO215 (FL340)       ▲ AIC505 (FL180)                                           |
-|            \                                                                            |
-|             \--- (Observed Breadcrumb Polyline)                                         |
-|                                                                                         |
-+-----------------------------------------------------------------------------------------+
-| [SELECTED FLIGHT: IGO215]              | [FLIGHT TRACK HISTORY]                         |
-| Alt: 34,000 ft (FL340) | Spd: 450 kts  | 14:02:10 - 13.1986° N, 77.7066° E - 34,000 ft  |
-| Hdg: 092° (E)          | V/S: Level    | Altitude Profile Recharts Area Chart           |
-+-----------------------------------------------------------------------------------------+
-| SURVEILLANCE TABLE: Callsign | ICAO24 | Country | Altitude | Speed | Heading | Status   |
-+-----------------------------------------------------------------------------------------+
-```
 
 ---
 
