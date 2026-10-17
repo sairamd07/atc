@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f2efeb;
+  --ink: #1a1a1a;
+  --accent: #d94e33;
+  --ink-faint: rgba(26, 26, 26, 0.08);
+  --ink-medium: rgba(26, 26, 26, 0.6);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.font-oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+.font-mono-tech {
+  font-family: 'Space Mono', monospace;
+}
+
+.label-tech {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ink-medium);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink);
+}
+
+/* Industrial Grid Pattern for Map Section */
+.radar-grid-bg {
+  background-image: linear-gradient(var(--ink-faint) 1px, transparent 1px),
+                    linear-gradient(90deg, var(--ink-faint) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Leaflet Container Overrides for Brutalist Theme */
+.leaflet-container {
+  background-color: #e8e4df !important;
+  font-family: inherit;
+}
+
+.leaflet-control-zoom {
+  border: 2px solid var(--ink) !important;
+  background: var(--bg) !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  overflow: hidden;
+}
+
+.leaflet-control-zoom a {
+  background-color: var(--bg) !important;
+  color: var(--ink) !important;
+  border-bottom: 2px solid var(--ink) !important;
+  border-radius: 0px !important;
+  font-family: 'Space Mono', monospace !important;
+  font-weight: bold !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: var(--ink) !important;
+  color: var(--bg) !important;
+}
+
+/* Leaflet Popups */
+.leaflet-popup-content-wrapper {
+  background: var(--bg) !important;
+  border: 2px solid var(--ink) !important;
+  color: var(--ink) !important;
+  border-radius: 0px !important;
+  box-shadow: 4px 4px 0px rgba(26, 26, 26, 0.8) !important;
+}
+
+.leaflet-popup-tip {
+  background: var(--bg) !important;
+  border: 2px solid var(--ink) !important;
+}
+
+/* Custom Marker Container */
+.aircraft-marker-container {
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
+  will-change: transform;
+}
+
+.aircraft-marker-container:hover {
+  filter: brightness(1.2);
+}

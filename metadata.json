@@ -1,0 +1,8 @@
+{
+  "name": "Airspace Control — Real-Time ATC Dashboard",
+  "description": "Professional real-time air traffic monitoring dashboard with live OpenSky Network tracking, interactive radar map, flight telemetry, and movement history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
